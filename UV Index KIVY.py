@@ -15,10 +15,6 @@ from kivy.uix.boxlayout import BoxLayout
 #Sets a minimum version of kivy required to run the app.
 kivy.require('1.0.7')
 
-from kivy.animation import Animation
-from kivy.app import App
-from kivy.uix.button import Button
-
 #Creates a new xml file in the location of this script.
 #Propagates content based on downloaded xml data.
 def ARPANSARetrieval(self):
